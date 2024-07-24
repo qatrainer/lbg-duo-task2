@@ -35,6 +35,6 @@ spec:
     spec:
       containers:
         - name: nginx-container
-          image:<docker-hub-id>flask-nginx:latest
+          image:<docker-hub-id>/flask-nginx:latest
           ports:
             - containerPort: 80
